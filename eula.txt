@@ -1,0 +1,2 @@
+eula=true
+# By default EULA is set to true here. Make sure you agree to Minecraft EULA (https://account.mojang.com/documents/minecraft_eula) before running on a public server.

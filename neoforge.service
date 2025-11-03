@@ -1,0 +1,15 @@
+[Unit]
+Description=NeoForge Minecraft Server - Just Create
+After=network.target
+
+[Service]
+User=minecraft
+WorkingDirectory=/opt/minecraft/JustCreate
+ExecStart=/opt/minecraft/JustCreate/start.sh
+Restart=on-failure
+RestartSec=10
+LimitNOFILE=4096
+# Adjust memory limits via start.sh
+
+[Install]
+WantedBy=multi-user.target
